@@ -10,7 +10,7 @@
   <packaging>jar</packaging>
   
   <name>parser.predictive.g3-11</name>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/romildo/parser.predictive.g3-11</url>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
