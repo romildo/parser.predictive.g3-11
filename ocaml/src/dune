@@ -1,0 +1,15 @@
+;; parser for G-3.11 from Appell's book
+
+(executable
+  (name main)
+  (preprocess
+   (staged_pps
+    ppx_import
+    ppx_deriving.show
+    ))
+  (flags (:standard -warn-error -A))
+)
+
+(ocamllex
+  (modules lexer)
+)
