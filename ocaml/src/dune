@@ -3,10 +3,7 @@
 (executable
   (name main)
   (preprocess
-   (staged_pps
-    ppx_import
-    ppx_deriving.show
-    ))
+   (staged_pps ppx_deriving.show))
   (flags (:standard -warn-error -A))
 )
 
