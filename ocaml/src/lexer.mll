@@ -25,6 +25,3 @@ rule get_token = parse
                              (Lexing.lexeme_start lexbuf)
                              (Lexing.lexeme_char lexbuf 0))
                     }
-
-{
-}
