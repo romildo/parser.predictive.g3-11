@@ -32,7 +32,7 @@
 
 - Como a execução inicia-se pelo símbolo inicial e vai fazendo as derivações à medida em que são chamadas as funções correspondentes aos símbolos no lado direito das regras de produção, temos:
   - a análise é **descendente**: a construção da árvore começa pela raiz
-  - as derivações sempre são **mais à direita**
+  - as derivações sempre são **mais à esquerda**
   - a análise é **preditiva**:
     - escolhe-se a regra de produção baseando-se no próximo token apenas
 
